@@ -1,5 +1,5 @@
 # Change these
-server 'server', port: 3000, roles: [:web, :app, :db], primary: true
+server 'localhost', port: 3000, roles: [:web, :app, :db], primary: true
 
 set :repo_url,        'git@github.com:davidc11390/first-site.git'
 set :application,     'first-site'
